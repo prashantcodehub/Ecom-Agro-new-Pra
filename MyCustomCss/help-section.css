@@ -7520,6 +7520,8 @@ button.bg-dark:focus {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    /* added by prashant */
+    /* width: 19vw; */
 }
 
 .d-inline-flex {
@@ -11640,6 +11642,9 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 22px;
     margin-left: -48px;
+    /* below added by prashant */
+    padding-left: 3.3rem;
+
 }
 
 .info-wrap .dbox:last-child {
