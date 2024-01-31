@@ -1,0 +1,311 @@
+.text-content{
+    left: 20%;
+}
+
+
+
+
+
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter span {
+    position: absolute;
+    top: 45%;
+    color: #00723c;
+    font-family: monospace;
+    overflow: hidden;
+   font-size: 25px;
+    /* border-right: .15em solid orange; */
+    white-space: nowrap;
+    margin: 0 auto;
+    /* letter-spacing: .25em; */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 46%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    10% {
+        border-color: orange
+    }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+.testing {
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    color: rgba(255, 255, 255, .70);
+    position: absolute;
+    right: 10px;
+}
+
+/* Animation */
+.testing {
+    animation: animated-text 4s steps(17, end) 1s 1 normal both,
+        animated-cursor 600ms steps(17, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 286px;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgba(0, 255, 0, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+
+.new2113 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new2113:nth-child(1) {
+    color: #e0ffff;
+}
+
+.new2113:nth-child(2) {
+    color: #42455a;
+    background: #e0ffff;
+}
+
+.new2113:nth-child(3) {
+    color: #e0ffff;
+}
+
+.new2113:nth-child(4) {
+    color: #42455a;
+    background: #e0ffff;
+}
+
+.new2113 .container {
+    margin: 100px;
+}
+
+.new2113 h1 {
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.new2113 h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.new2113 .text-container2 {
+    display: flex;
+}
+
+.new2113 .text-container2 .text-box2 {
+    margin: 20px;
+    padding: 20px;
+    background: #00c2cb;
+}
+
+.new2113 .text-container2 .text-box2 h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .new2113 h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .new2113 .text-container2 {
+        flex-direction: column;
+    }
+}
+
+.reveal {
+    position: relative;
+    /* transform: translateY(150px); */
+    transform: translateX(150px);
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.reveal-plant {
+    position: relative;
+    /* transform: translateY(150px); */
+    transform: translateX(-150px);
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-plant.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.reveal-test {
+    position: relative;
+    transform: translateY(150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-test.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+
+.reveal-india-map {
+    position: relative;
+    transform: translateX(150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-india-map.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Location section adress area on;y  */
+
+.reveal-address {
+    position: relative;
+    transform: translateX(-150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-address.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* reveal-left-why-card */
+
+.reveal-left-why-card {
+    position: relative;
+    transform: translateX(-150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-left-why-card.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* reveal-left-why-card */
+
+.reveal-right-why-card {
+    position: relative;
+    transform: translateX(150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-right-why-card.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+/* reveal-M-why-card */
+
+.reveal-m-why-card {
+    position: relative;
+    transform: translateY(150px);
+ 
+    /* transform: translateX(-150px); */
+
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-m-why-card.active {
+    transform: translateY(0);
+    opacity: 1;
+}

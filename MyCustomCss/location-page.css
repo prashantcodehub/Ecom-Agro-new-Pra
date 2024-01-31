@@ -1,0 +1,66 @@
+.haeding-location {
+    text-align: center;
+    /* font-size: large; */
+    font-weight: 700;padding: 20px;
+    color: #00723c;
+    text-transform: capitalize;
+    /* margin-top: 8%; */
+}
+
+.location-image {
+    width: 100%;
+    height: 520px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    /* background-image: url("/new-img/sunfield\ agro\ images\ 1.png"); */
+}
+
+#location-img2 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* .sect2 .location-animate{
+    transform: 2s;
+} */
+section .location-animate {
+    transform: 5s;
+}
+
+.section-location .location-animate {
+    transform: 5s;
+}
+
+.sect2 .location-animate {
+    /* transform: translateX(100%); */
+}
+
+.sect2.show-animate .location-animate {
+    transform: translateX(0);
+}
+
+
+.sect2 .location-animate {
+    /* transform: translateX(100%); */
+}
+
+.sect2.show-animate .location-animate {
+    transform: translateX(0);
+}
+
+.section1{
+    transform: 2s;
+}
+
+.section1 .images h1 {
+    color: red;
+    transform: translateX(250px);
+    transition: all 1s ease;
+}
+
+.section1 .show-animate .images h1{
+    transform: translatey(0);
+    opacity: 1;
+}

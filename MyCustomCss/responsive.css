@@ -1,0 +1,12 @@
+@media(max-width:900px) {
+    .home-image {
+        /* display: none; */
+    }
+    .text-content .ani-container{
+        /* display: none; */
+        font-size: 10px;
+    }
+    .typewriter{
+        font-size: large;
+    }
+}
