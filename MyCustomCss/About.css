@@ -143,7 +143,7 @@ h1 {
 .centered {
     position: relative;
     color: #f79410 !important;
-    /* top: 20%; */
+    top: 20%;
     /* left: 50%; */
     /* font-size: xx-large; */
     letter-spacing: 2px;
@@ -173,14 +173,17 @@ h1 {
 }
 
 .visiionheading {
-    /* color: red ; */
+    /* color: red; */
     text-transform: capitalize;
     text-align: center;
+    height: 21vh;
 }
 
 .visiionheading h3 {
     color: #00723c;
     font-weight: 600;
+    position: relative;
+    top: 20%;
 }
 
 .lgo-images {
@@ -252,8 +255,7 @@ h1 {
     width: 300px;
     display: flex;
     border: double 1em transparent;
-    background-image: linear-gradient(white, #8080802e),
-        linear-gradient(to bottom, #00723c 15%, white 68%);
+    background-image: linear-gradient(white, #ffffffbd), linear-gradient(to bottom, #e0974a 15%, white 68%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     height: 214px;
@@ -313,8 +315,7 @@ h1 {
 }
 
 .image:nth-child(2n) {
-    background-image: linear-gradient(white, #8080802e),
-        linear-gradient(to top, #e0974a 15%, white 68%);
+        background-image: linear-gradient(white, #ffffffd6), linear-gradient(to top, #00723c 15%, white 68%);
         /* linear-gradient(to top, white); */
 
 }
@@ -1268,7 +1269,7 @@ a:hover {
 .hexagon-container .content p {
     text-align: center;
     margin-left: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /* 
