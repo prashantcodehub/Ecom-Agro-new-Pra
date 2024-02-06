@@ -40,7 +40,7 @@
     line-height: 1.2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    transition: all 0.2s ease;
+    /* transition: all 0.2s ease; */
     will-change: transform;
     padding: var(--mc4-space-2xs) var(--mc4-space-sm);
     border-radius: 0.25em;
